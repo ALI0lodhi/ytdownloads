@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensures the container is centered vertically */
+}
+
+.container {
+    max-width: 600px;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Dark theme for hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Dark theme for input focus */
+input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Dark theme for button focus */
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #007bff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevents scroll bars */
+}
+
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; /* Places the video behind other content */
+}
+
+.container {
+    position: relative; /* Ensures that the container stays on top of the video */
+    z-index: 1; /* Ensures that the container stays on top of the video */
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    color: #fff; /* Set text color to white for better visibility */
+}
+/* Styling for dropdown menu */
+select {
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    appearance: none; /* Remove default appearance */
+    -webkit-appearance: none; /* For Safari */
+    -moz-appearance: none; /* For Firefox */
+    outline: none; /* Remove outline */
+}
+
+/* Styling for dropdown options */
+select option {
+    background-color: #333; /* Background color for options */
+    color: #fff; /* Text color for options */
+}
+
+/* Change background color and border on hover */
+select:hover,
+select:focus {
+    background-color: #007bff; /* Change background color on hover */
+    border-color: #007bff; /* Change border color on hover */
+}
